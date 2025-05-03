@@ -2,6 +2,6 @@
 
 def call() {
     echo 'building the application'
-    sh 'mvn -B -D skipTests clean package'
+    sh 'mvn -B -DskipTests clean package'
 
 }
